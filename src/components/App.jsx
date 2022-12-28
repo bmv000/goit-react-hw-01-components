@@ -13,10 +13,10 @@ const { username, tag, location, avatar, stats } = user;
 export const App = () => {
   return (
     <div
-      style={{    
-        padding: 60, 
+      style={{
+        padding: 60,
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
       <Profile
@@ -27,17 +27,10 @@ export const App = () => {
         stats={stats}
       />
 
-      <Statistics
-        title="Upload stats"
-        stats={data}
-      />
-      <FriendList
-        friends={friends}
-      />
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
 
-      <TransactionHistory
-        items={transactions}
-      />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };

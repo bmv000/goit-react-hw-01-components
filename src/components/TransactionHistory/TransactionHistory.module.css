@@ -1,24 +1,24 @@
-.transaction__history{
-    width: 780px;
-     margin-left: auto;
-    margin-right: auto;
-     text-align: center;
-   border-collapse: collapse; 
-   font-size: 18px;
+.transaction__history {
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 18px;
 }
 .transaction__history th,
 .transaction__history td {
-    padding: 8px;
-    border: 2px solid #030303;
+  padding: 8px;
+  border: 2px solid #030303;
 }
 thead {
-    text-transform: uppercase;
-    background-color: rgb(64, 118, 118);
-    color: aliceblue;
+  text-transform: uppercase;
+  background-color: rgb(64, 118, 118);
+  color: aliceblue;
 }
 tbody {
-    color: darkslategray;
+  color: darkslategray;
 }
-tbody tr:nth-child(2n){
-    background-color:rgb(199, 225, 199);
+tbody tr:nth-child(2n) {
+  background-color: rgb(199, 225, 199);
 }
